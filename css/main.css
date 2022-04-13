@@ -1,0 +1,452 @@
+/*Start global*/
+
+.nav span,.header .overlay h1 span{
+    font-weight: normal;
+    color:#ff8b38;
+}
+/*End global*/
+
+/*Start navbar*/
+.navbar-inverse .navbar-brand{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+   
+    color: #fff;
+    font-size: 16px;
+    transition-duration: 700ms;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+    color:#ff8b38;
+    background-color: #555;
+}
+.navbar-brand{
+    font-size: 38px;
+    font-weight: bold;
+}
+.scrolled{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/*End navbar*/
+
+/*Start Header*/
+.header{
+    background: url("../images/img1.jpg")no-repeat top center;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.header .row {
+    padding-top: 25vh;
+}
+.header .overlay,
+.stylish-section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.header .overlay h1{
+    font-weight: bold;
+    font-size: 90px;
+}
+.header .overlay p:first-of-type {
+font-size: 35px;
+}
+.Br{
+    height: 3px;
+    width: 73px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.header .overlay p:nth-of-type(2) {
+    font-size: 13px;
+    }
+.header .overlay button,
+.stylish-section .overlay button{
+    background-color: transparent;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    margin-top: 12px;
+    transition-duration: 700ms;
+}
+.header .overlay button:hover,
+.stylish-section .overlay button:hover{
+    color:#ff8b38;
+    border: 2px solid #ff8b38;
+}
+form{
+    
+    width: 360px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+form h4 {
+    color: #000;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-top: 0;
+    font-weight: bold;
+}
+form span{
+    color: #ff8b38;
+}
+ .header .form-control {
+     width: 80%;
+    border-radius: 0;
+    margin: 0 auto  40px ;
+    border: none;
+    border-bottom: 1px solid #c0bdbd;
+    box-shadow: none;
+}
+.header form input[type="submit"]{
+    background-color: #ff8b38;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 15px ;
+    font-weight: bold;
+    font-size: 17px;
+    transition-duration: 700ms;
+}
+.header form input[type="submit"]:hover{
+    
+    background-color: #000;
+    color: #ff8b38;
+}
+/*End Header*/
+
+/*Start social media*/
+.social-section{
+    background-color: #fff;
+    box-shadow: -2px -5px 13px #000;
+}
+.social-section h4 {
+    font-weight: bold;
+}
+.social-section p {
+    color: #a1a1a1;
+}
+.social-section ul{
+margin-top: 55px;
+width: 100%;
+}
+.social-section ul li {
+    display: inline-block;
+}
+.social-section img {
+    height: 46px;
+    width: 46px;
+}
+/*End social meadia*/
+
+/* Start tabs section */
+.tabs-section,
+.standard-pic,
+.pricing-section{
+    background-color: #f5f5f5;
+    padding: 88px 0;
+}
+.tabs-section ul{
+margin-bottom: 30px;
+}
+.tabs-section .tab-switch li{
+    background-color: #333;
+    color:#fff;
+    height: 110px;
+    border-bottom: 1px solid #fff;
+    line-height: 110px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 700ms;
+}
+.tabs-section .tab-switch .selected,.tabs-section .tab-switch li:hover{
+    background-color: #ff8b38;
+}
+.tabs-section .tabs-content h3{
+margin-top: 0;
+font-weight: bold;
+margin-bottom: 18px;
+letter-spacing: -1px;
+}
+.tabs-section .tabs-content p{
+line-height: 1.7;
+font-size: 18px;
+color: #555;
+}
+.tabs-section .tabs-content button,
+.contact-us button,
+.contact-us button:focus{
+background-color: #ff8b38;
+color: #fff;
+transition-duration: 700ms;
+}
+.tabs-section .tabs-content button:hover,
+.contact-us button:hover{
+    color: #000;
+}
+.tabs-section  img{
+    margin-top: 80px;
+}
+.tabs-section .tabs-content div:not(.tab-one){
+display: none;
+}
+/* End tabs section */
+
+/* Start sublist section */
+.sublist,
+.awesome-section,
+.testimonials-section,
+.contact-us{
+    padding: 88px 0;
+}
+.sublist .list{
+    overflow: hidden;
+}
+.sublist img{
+    width: 400px;
+    margin-top: 70px;
+}
+.sublist h4,h5,.standard-pic h4 {
+    font-weight: bold;
+}
+.sublist p,
+.standard-pic p,
+.awesome-section p,
+.pricing-section p,
+.testimonials-section p,
+.stylish-section p,
+.contact-us p{
+    font-size: 13px;
+    color: #a1a1a1;
+    line-height: 1.6;
+}
+.sublist i ,
+.awesome-section .bottom-awesome i,
+.testimonials-section .personne i{
+    color: #ff8b38;
+    font-size: 18px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    padding: 10px;
+    margin:50px 20px 0 0;
+}
+.sublist .title{
+    width: calc(100% - 70px);
+    margin-bottom: 10px;
+}
+.standard-pic img {
+    width: 400px;
+}
+/* End sublist section */
+
+/* Start Standard pic section */
+
+ .standard-pic .left-item{
+     margin-top: 44px;
+ }
+/* End Standard pic section */
+
+/* Start This is awesome section */
+
+.awesome-section .top-awesome h2,
+.pricing-section .top-pricing h2,
+.testimonials-section .top-testimonials h2,
+.stylish-section  h2,
+.contact-us .top-contact-us h2{
+text-transform: uppercase;
+}
+.awesome-section .bottom-awesome{
+    margin-top: 50px;
+}
+.awesome-section .bottom-awesome i{margin:0 0;}
+.awesome-section .bottom-awesome h4{margin: 22px 0;font-weight: bold;}
+.awesome-section .bottom-awesome p{margin-bottom: 22px;}
+/* End This is awesome section */
+
+/* Start Pricing options section */
+.pricing-section .tag{
+    margin-top: 100px;
+    width: 300px;
+}
+.pricing-section .tag .head{
+    background-color: #333333;
+}
+.pricing-section .tag .head .title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    border-bottom: 2px solid #fff;
+    padding: 9px 0;
+}
+.pricing-section .tag .head .price h2{
+    color: #fff;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 55px;
+}
+.pricing-section .tag .head .price h2 span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+.pricing-section .tag .description {
+    background-color:#fff;
+}
+.pricing-section .tag .description p{
+    text-transform: uppercase;
+    border-bottom:1px solid #f5f5f5;
+    padding: 11px 0;
+    margin: 0;
+}
+.pricing-section .tag .orange-bar {
+    background-color: #ff8b38;
+    height: 5px;
+}
+.pricing-section .tag-center{
+    margin-top: 75px;
+}
+.pricing-section .tag-center .orange-bar{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+/* End Pricing options section */
+
+/* Start testimonials section */
+.testimonials-section .comment{
+background-color: #f5f5f5;
+border-radius: 5px;
+padding: 10px 5px;
+width: 250px;
+position: relative;
+margin-top: 50px;
+}
+.testimonials-section .triangle{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f5;
+    rotate: 45deg;
+    bottom: -11px;
+    left: 29px;
+    z-index: -1;
+}
+.testimonials-section .personne{
+    margin-top: 25px;
+    margin-left: 52px;
+}
+.testimonials-section .personne i{
+    font-size: 42px;
+    margin: 0px 14px 0 0px;
+}
+.testimonials-section .personne h5{
+    margin: 24px 0 0;
+}
+/* End testimonials section */
+
+/* Start stylish section */
+.stylish-section{
+    background: url("../images/img5.jpg")fixed no-repeat top center;
+    position: relative;
+    color: #fff;
+    height: 300px;
+}
+.stylish-section .overlay {
+    padding: 50px 0;
+}
+.stylish-section p{
+    color: #c4c4c4;
+    font-size: 13px;
+}
+.stylish-section  .bar{
+    background-color: #fff;
+}
+
+/* End stylish section */
+
+/* Start contact us */
+.contact-us .form-control{
+    border:none;
+    border-bottom: 1px solid #a1a1a1;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 21px;
+}
+
+.contact-us  textarea{
+    height: 144px;
+    resize: none;
+}
+.contact-us button{
+    border-radius: 2px;
+    margin-top: 25px;
+}
+/* End contact us */
+
+/* Start footer */
+.footer{
+    background-color: #000;
+    color: #EEE;
+    padding: 20px 0;
+    font-size: 18px;
+}
+/* End footer */
+/*Start framework*/
+.bar{
+    width: 67px;
+    height: 2px;
+    background-color: #ff8b38;
+    margin: 20px 0;
+}
+/*End framework*/
+
+@media(max-width:767px){
+    .header{
+      height: 1100px;
+    }
+    .header .overlay p:first-of-type {
+        font-size: 20px;
+        }
+        form{
+            margin-top:10px;
+        }
+        .header .overlay button{
+            padding: 8px 20px;
+        }
+       
+}
+
+@media(max-width:991px){
+    .header{
+      height: 700px;
+    }
+    .header .row {
+        padding-top: 30px;
+    }
+    .header .overlay h1{
+        font-size: 50px;
+    }.tabs-section img {
+        display: none;
+    }
+    .tabs-section .tab-switch li{
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .testimonials-section .personne{
+       margin:22px 39%;
+    }
+}
